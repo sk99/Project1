@@ -1,0 +1,275 @@
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:40px;
+    padding:10px 20px 5px 20px;
+    text-transform:uppercase;
+}
+
+ h1:before {
+content: '';
+display: block;
+position: absolute;
+width: 120px;
+height: 1px;
+background: #fff;
+margin: auto;
+left: -150px;
+right: 0;
+}
+
+ h1:after {
+content: '';
+display: block;
+position: absolute;
+width: 120px;
+height: 1px;
+background: #fff;
+margin: auto;
+left: 0;
+right: -150px;
+}
+h4 {
+    
+    line-height:50px;
+    font-size:20px;
+    
+}
+
+.pad-adjust {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:20px;
+}
+
+
+.cbp-spmenu-s1 {
+   
+  
+   text-align: right;
+     position: fixed; 
+    z-index: 9999;
+     right: 4px; 
+     top: 20px; 
+}
+.cbp-spmenu-s1 a{
+    color: white;
+    text-decoration:none; 
+}
+
+
+
+section {
+    padding-top:20px;
+}
+
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+.head-btn-one {
+    background-color: rgba(252, 64, 101, 1);
+     border: 0px solid #fff;
+
+}
+
+#home {
+    padding-top:130px;
+    padding-bottom:200px;
+    background:black;
+    width: 100%;
+    color: white;
+}
+.head-main {
+    font-size:80px ;
+    font-weight:900;
+    
+}
+.head-sub-main {
+    font-size:20px ;
+    font-weight:100;
+    padding:5px 20px 10px 20px;
+}
+.head-last {
+    font-size:20px ;
+    font-weight:100;
+    padding:5px 20px 20px 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+border-radius: 0px; 
+
+}
+
+.pad-adjust div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+/*=======================================
+    PROJECT SECTION STYLES
+==================================================*/
+#project-sec {
+    padding-top: 80px;
+     padding-bottom: 80px;
+}
+
+.project {
+    background: #eef1f3;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+
+.project:hover {
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.project li {
+    padding: 15px 0px;
+    color: #434749;
+    border-top: 1px dashed #000;
+}
+
+.project li.project-head {
+padding: 15px 0px;
+background-color: #0d77b6;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+.project li.prjct {
+padding: 15px 0px;
+color: black;
+line-height: 20px;
+font-size: 15px;
+font-weight: 300;
+border: none;
+   }
+
+
+.c-b {
+    background-color:#B60D43!important;
+}
+.c-v {
+    background-color: #01AA30!important;
+}
+.c-a {
+    background-color: #818181!important;
+}
+
+
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+#contact-inner {
+    padding-bottom:60px;
+    padding-bottom:50px;
+}
+.contact-cls {
+    font-size:20px;
+    line-height:40px;
+}
+.contact-cls i {
+        margin-right:8px;
+        text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+
+/*=======================================
+    COLOR CODES
+==================================================*/
+
+.color-bg-one {
+    background-color:rgba(0, 122, 255, 1)!important;
+    color:#fff;
+}
+.color-white {
+   background-color:#fff!important;
+}
+.color-dark {
+   background-color:#696969!important;
+}
+
+.color-light {
+   background-color:#E9E9E9!important;
+}
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color:#000;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
